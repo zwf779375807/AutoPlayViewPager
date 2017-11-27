@@ -5,7 +5,7 @@
   ![img](https://github.com/zwf779375807/AutoPlayViewPager/blob/master/app/show.gif)
   
   
-项目中使用<br>
+# 如何使用
 第一步: 
        allprojects {
 		repositories {
