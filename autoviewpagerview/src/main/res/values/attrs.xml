@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoViewPager">
+        <attr name="currentPoi" format="reference"/>
+        <attr name="otherPoi" format="reference"/>
+        <attr name="poiRadius" format="dimension"/>
+        <attr name="interval" format="integer"/>
+    </declare-styleable>
+</resources>
