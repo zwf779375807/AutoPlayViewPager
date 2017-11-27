@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData() {
+        //创建数据
         List<String> datas = new ArrayList<>();
         datas.add("http://pic27.photophoto.cn/20130522/0010023309252566_b.jpg");
         datas.add("http://pic28.photophoto.cn/20130827/0005018376937114_b.jpg");
@@ -35,5 +36,6 @@ public class MainActivity extends AppCompatActivity {
         datas.add("http://img5.duitang.com/uploads/item/201601/12/20160112200836_dRTZx.jpeg");
         MyAutoViewPagerAdapter myAutoViewPagerAdapter = new MyAutoViewPagerAdapter(datas);
         autoViewPager.setAdapter(myAutoViewPagerAdapter);
+
     }
 }
