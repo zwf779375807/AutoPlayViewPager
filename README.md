@@ -6,14 +6,11 @@
   
   
 # 如何使用
-      allprojects {
-	repositories {
-	maven { url 'https://www.jitpack.io' }
-	}
-         }
-        dependencies {
-           compile 'com.github.zwf779375807:AutoPlayViewPager:v1.5'
-         }
+    
+    dependencies {
+        compile 'com.github.zwf779375807:AutoPlayViewPager:v1.5'
+    }
+  
 xml中使用 
 
     <com.example.autoviewpagerview.AutoViewPager
