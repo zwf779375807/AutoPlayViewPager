@@ -21,7 +21,7 @@ xml中使用
    poiRadius：  指示器大小 <br>
    
    
-   java代码中使用,adapter继承AutoViewAdapter<T>，在构造函数中设置传递参数，重写getInstantiateItem(Context context,int currentPosition)方法，返回子view
+java代码中使用,adapter继承AutoViewAdapter<T>，在构造函数中设置传递参数，重写getInstantiateItem(Context context,int currentPosition)方法，返回子view
   
   
     public class MyAutoViewPagerAdapter extends AutoViewAdapter<String> {
@@ -44,8 +44,8 @@ xml中使用
             }
         });
         return v;
-    }
-   }
+      }
+     }
 
   
 
