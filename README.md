@@ -7,14 +7,14 @@
   
 项目中使用<br>
 第一步: 
-    allprojects {
+       allprojects {
 		repositories {
 			...
 			maven { url 'https://www.jitpack.io' }
 		}
-	}
+	 }
  第2步：
-   dependencies {
+      dependencies {
 	        compile 'com.github.zwf779375807:AutoPlayViewPager:v1.5'
 	}
 
