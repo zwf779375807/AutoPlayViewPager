@@ -6,13 +6,12 @@
   
   
 # 如何使用
- 第1
       allprojects {
 	repositories {
 	maven { url 'https://www.jitpack.io' }
 	}
          }
- 第2     dependencies {
+        dependencies {
            compile 'com.github.zwf779375807:AutoPlayViewPager:v1.5'
          }
 xml中使用 
