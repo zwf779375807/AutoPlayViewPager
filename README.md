@@ -14,11 +14,11 @@ xml中使用
         app:otherPoi="@drawable/other_poi"
         app:poiRadius="3dp"
         />
-        
-  interval ：  为自定播放时长
-  currentPoi： 当前页指示器
-  otherPoi：   其他页指示器
-  poiRadius：  指示器大小
+       
+ interval ：  为自定播放时长
+ currentPoi： 当前页指示器
+ otherPoi：   其他页指示器
+ poiRadius：  指示器大小
   
   
 
