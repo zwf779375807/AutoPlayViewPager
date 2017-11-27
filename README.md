@@ -19,8 +19,33 @@ xml中使用
    currentPoi： 当前页指示器; <br>
    otherPoi：   其他页指示器; <br>
    poiRadius：  指示器大小 <br>
-   
-   
+   
+java代码中使用
+   adapter继承AutoViewAdapter<T>，在构造函数中设置传递参数，重写getInstantiateItem(Context context,int currentPosition)方法，返回子view
   
+  
+  public class MyAutoViewPagerAdapter extends AutoViewAdapter<String> {
+    private List<String> myData;
+
+    public MyAutoViewPagerAdapter(List<String> data) {
+        super(data);
+        this.myData = data;
+    }
+
+    @Override
+    public View getInstantiateItem(final Context context, final int currentPosition) {
+        View v = View.inflate(context, R.layout.test_layout, null);
+        ImageView ivItem = ButterKnife.findById(v, R.id.iv_item);
+        Picasso.with(context).load(myData.get(currentPosition)).into(ivItem);
+        v.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context, String.valueOf(currentPosition), Toast.LENGTH_SHORT).show();
+            }
+        });
+        return v;
+    }
+}
+
   
 
