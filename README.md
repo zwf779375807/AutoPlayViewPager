@@ -1,13 +1,24 @@
 # AutoPlayViewPager
 
-[![](https://www.jitpack.io/v/zwf779375807/AutoPlayViewPager.svg)](https://www.jitpack.io/#zwf779375807/AutoPlayViewPager)
-
-
 一个支持自动滑动的viewpager，代码简单，支持自定义拓展，小伙伴可以根据自己需要自行修改代码
 
   ![img](https://github.com/zwf779375807/AutoPlayViewPager/blob/master/app/show.gif)
   
-xml中使用  
+  
+项目中使用<br>
+第一步: 
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://www.jitpack.io' }
+		}
+	}
+ 第2步：
+   dependencies {
+	        compile 'com.github.zwf779375807:AutoPlayViewPager:v1.5'
+	}
+
+xml中使用 
 
     <com.example.autoviewpagerview.AutoViewPager
         android:id="@+id/autoViewPager"
