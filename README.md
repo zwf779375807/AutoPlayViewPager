@@ -7,16 +7,16 @@
   
 # 如何使用
 第一步: 
-       allprojects {
-		repositories {
-			...
-			maven { url 'https://www.jitpack.io' }
-		}
-	 }
- 第2步：
-      dependencies {
-	        compile 'com.github.zwf779375807:AutoPlayViewPager:v1.5'
+  allprojects {
+	repositories {
+	maven { url 'https://www.jitpack.io' }
 	}
+  }
+ 第2步：
+  
+  dependencies {
+     compile 'com.github.zwf779375807:AutoPlayViewPager:v1.5'
+  }
 
 xml中使用 
 
