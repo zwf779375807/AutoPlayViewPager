@@ -1,4 +1,8 @@
 # AutoPlayViewPager
+
+[![](https://www.jitpack.io/v/zwf779375807/AutoPlayViewPager.svg)](https://www.jitpack.io/#zwf779375807/AutoPlayViewPager)
+
+
 一个支持自动滑动的viewpager，代码简单，支持自定义拓展，小伙伴可以根据自己需要自行修改代码
 
   ![img](https://github.com/zwf779375807/AutoPlayViewPager/blob/master/app/show.gif)
